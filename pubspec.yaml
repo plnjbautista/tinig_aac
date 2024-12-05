@@ -1,0 +1,49 @@
+name: Tinig
+description: "An Augmentative and Alternative Communication Application." # Brief project description
+publish_to: 'none' # Set to 'none' to avoid publishing the package publicly
+
+version: 1.0.0+1 # Application versioning: format is major.minor.patch+build
+
+environment:
+  sdk: ^3.5.1 # Specify the Dart SDK version required for the project
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8 # iOS-style icons for the app
+  audioplayers: ^6.1.0  # Ensure you have audioplayers for sound playback
+  image_picker: ^1.1.2   # Ensure you have image_picker for image selection
+  file_picker: ^8.1.2    # Add this for file selection support
+  shared_preferences: ^2.0.15 # For storing persistent key-value pairs
+  path_provider: ^2.0.11 # Access device file system paths
+  animated_text_kit: ^4.2.2 # for animating text
+  firebase_core: ^3.8.0
+  cloud_firestore: ^5.5.0
+  crypto: ^3.0.1
+  uuid: ^3.0.7
+  provider: ^6.1.2
+  permission_handler: ^10.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter # Include testing framework for Flutter
+  flutter_lints: ^5.0.0 # Recommended lints for Flutter projects
+
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - assets/about_page/
+    - assets/trial.jpg
+    - assets/trial.png
+    - assets/default_avatar.png
+    - assets/officiallogo.png
+    - assets/images/
+    - assets/audio/
+    - assets/officiallogo.png
+    - assets/logo2.png
+    - assets/logo.png
